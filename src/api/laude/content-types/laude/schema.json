@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "laudes",
+  "info": {
+    "singularName": "laude",
+    "pluralName": "laudes",
+    "displayName": "laude",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "data": {
+      "type": "date",
+      "unique": true,
+      "required": true
+    },
+    "conteudo": {
+      "type": "richtext"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "completas",
+  "info": {
+    "singularName": "completa",
+    "pluralName": "completas",
+    "displayName": "Completa"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "conteudo": {
+      "type": "richtext"
+    },
+    "data": {
+      "type": "date"
+    }
+  }
+}
