@@ -7,7 +7,7 @@ module.exports = ({ env }) => ({
       database: env('DATABASE_NAME', 'postgres'),
       user: env('DATABASE_USERNAME', 'postgres'),
       password: env('DATABASE_PASSWORD', 'Postgres2022!'),
-      schema: env('DATABASE_SCHEMA', 'public'), // Not required
+      //schema: env('DATABASE_SCHEMA', 'public'), // Not required
       ssl: env('DATABASE_SSL', false)
     },
     debug: false,
